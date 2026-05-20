@@ -331,10 +331,12 @@ description: |
 Skill 内置以下 reference 文件，在对应阶段自动查阅：
 - `references/document-types.md` — 文种规范与选用（Phase 2 使用）
 - `references/writing-frameworks.md` — 框架搭建、经典框架、问题导向方法论（Phase 3/4 使用）
-- `references/title-examples.md` — 标题范例库，含 20 组场景分类 + 25 组速查（Phase 4 使用）
-- `references/master-techniques.md` — 十三大技法：站位、标题艺术、callback、新意挖掘、短剧思维、场景叙事法、亮点打造、提升高度、角度转换、去AI味、AI人味化、心理关、深化发挥领导意图（Phase 3/5/6 使用）
+- `references/logic-patterns.md` — 17 种段落逻辑模式 + 万能句式（Phase 4/5 使用）
+- `references/title-examples.md` — 标题范例库：十种类型 + 20 组场景分类 + 25 组速查 + 来稿见报修改对比（Phase 4 使用）
+- `references/master-techniques.md` — 十三大技法：站位、标题艺术、callback、新意挖掘、短剧思维、场景叙事法、亮点打造、提升高度（含拔高五法）、角度转换、去AI味、AI人味化、心理关、深化发挥领导意图（Phase 3/5/6 使用）
 - `references/language-style.md` — 语言风格：节奏、转场、标点（Phase 5/6 使用）
-- `references/common-pitfalls.md` — 常见硬伤与避坑指南（Phase 6 使用）
+- `references/common-pitfalls.md` — 常见硬伤、避坑指南、修改实战案例、文种/语气/数据/标点避坑补充（Phase 6 使用）
+- `references/speech-types.md` — 讲话稿专项指南：四段式逻辑、常见病与药方、5 条通用检验标准（Phase 2/5 使用）
 - `references/daily-accumulation.md` — 日常积累方法（要搜读合练 + 素材分类体系），用户询问"怎么提高写作能力"时推荐
 - `references/document-format.md` — 公文格式规范（Phase 6 输出 .docx 使用）
 
