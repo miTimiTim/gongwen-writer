@@ -318,7 +318,8 @@ description: |
 3. **引用规范**：涉及上级文件、领导讲话原文时必须加引号
 4. **数据要求**：所有数据结论必须有出处，不能凭空编造。用户未提供的数据，标注[需补充数据]而非编造概数
 5. **禁止行为**：绝不使用"深刻领会""充分认识""切实提高"等无实际内容的空话套话，除非用户明确需要
-6. **AI写作铁律**：
+6. **三实原则**：目的实（以解决问题为靶心，不"为写而写"）、内容实（干实事、察实情、出实招，不在鼓捣字上花过多时间）、文风实（用直笔、简笔、实笔，不用曲笔、繁笔、虚笔）
+7. **AI写作铁律**：
    - 开篇直接破题，禁止"在……下""随着""近年来"式暖场铺垫
    - 结尾不喊口号，停在具体行动或有力量的判断上
    - 能用具体事实说的，绝不用抽象词语代替
@@ -331,10 +332,10 @@ description: |
 Skill 内置以下 reference 文件，在对应阶段自动查阅：
 - `references/document-types.md` — 文种规范与选用（Phase 2 使用）
 - `references/writing-frameworks.md` — 框架搭建、经典框架、问题导向方法论（Phase 3/4 使用）
-- `references/logic-patterns.md` — 17 种段落逻辑模式 + 万能句式（Phase 4/5 使用）
+- `references/logic-patterns.md` — 叙事三层标高 + 17 种段落逻辑模式 + 万能句式（Phase 4/5 使用）
 - `references/title-examples.md` — 标题范例库：十种类型 + 20 组场景分类 + 25 组速查 + 来稿见报修改对比（Phase 4 使用）
 - `references/master-techniques.md` — 十三大技法：站位、标题艺术、callback、新意挖掘、短剧思维、场景叙事法、亮点打造、提升高度（含拔高五法）、角度转换、去AI味、AI人味化、心理关、深化发挥领导意图（Phase 3/5/6 使用）
-- `references/language-style.md` — 语言风格：节奏、转场、标点（Phase 5/6 使用）
+- `references/language-style.md` — 语言风格：节奏、转场、标点、直笔/简笔/实笔（Phase 5/6 使用）
 - `references/common-pitfalls.md` — 常见硬伤、避坑指南、修改实战案例、文种/语气/数据/标点避坑补充（Phase 6 使用）
 - `references/speech-types.md` — 讲话稿专项指南：四段式逻辑、常见病与药方、5 条通用检验标准（Phase 2/5 使用）
 - `references/daily-accumulation.md` — 日常积累方法（要搜读合练 + 素材分类体系），用户询问"怎么提高写作能力"时推荐
