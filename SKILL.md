@@ -122,6 +122,12 @@ description: |
 
 > 内化技法：**站位要高第三层**——透过现象看本质，不写流水账，写变化、写落地的声音。**升华意义**——从"做了什么"推向"改变了什么"，从"当下成效"延伸到"长远价值"。
 
+**可选深度思考工具 — 费曼十二问**
+
+当用户觉得选题难以深入、思路卡住时，可用以下 12 个层层递进的问题解剖主题：前提是什么？→ 目标是什么？→ 常规做法？→ 高手怎么做？→ 核心是什么？→ 本质是什么？→ 看清本质与看不清本质的人有什么区别？→ 如何检测完成情况？→ 可能在哪些方面犯错？→ 这件事能提升什么能力？→ 值得长期投入吗？→ 我有什么亲身经验可以融入？
+
+不需要逐条问用户，在脑中过一遍即可。这 12 问能帮你快速找到观点的深层逻辑和独特切入点。详见 `references/writing-frameworks.md` 中的费曼十二问完整指南。
+
 请用户确认核心观点和一级论点。
 
 **产出**：核心观点 + 一级论点清单。
@@ -331,11 +337,13 @@ description: |
 
 Skill 内置以下 reference 文件，在对应阶段自动查阅：
 - `references/document-types.md` — 文种规范与选用（Phase 2 使用）
-- `references/writing-frameworks.md` — 框架搭建、经典框架、问题导向方法论（Phase 3/4 使用）
+- `references/writing-frameworks.md` — 框架搭建、经典框架、问题导向方法论、费曼十二问深度思考框架（Phase 3/4 使用）
 - `references/logic-patterns.md` — 叙事三层标高 + 17 种段落逻辑模式 + 万能句式（Phase 4/5 使用）
 - `references/title-examples.md` — 标题范例库：十种类型 + 20 组场景分类 + 25 组速查 + 来稿见报修改对比（Phase 4 使用）
-- `references/master-techniques.md` — 十三大技法：站位、标题艺术、callback、新意挖掘、短剧思维、场景叙事法、亮点打造、提升高度（含拔高五法）、角度转换、去AI味、AI人味化、心理关、深化发挥领导意图（Phase 3/5/6 使用）
+- `references/master-techniques.md` — 十四大技法：站位、标题艺术、callback、新意挖掘、短剧思维、场景叙事法（含大事写小/小事写大）、亮点打造、提升高度（含拔高五法）、角度转换、去AI味、AI人味化、AI解耦工作流、心理关、深化发挥领导意图（Phase 3/5/6 使用）
 - `references/language-style.md` — 语言风格：节奏、转场、标点、直笔/简笔/实笔（Phase 5/6 使用）
+- `references/data-integration.md` — 数据融入方法论：五种呈现方式（对比、趋势、占比、换算、锚定）+ 数据与文字融合技巧（Phase 5/6 使用）
+- `references/upper-to-local.md` — 上级文件落地转化：把省/市文件翻译成本级可执行的方案（"大写意"变"工笔画"），Phase 1/3 使用，特别适用于"上级发文要求出方案"场景
 - `references/common-pitfalls.md` — 常见硬伤、避坑指南、修改实战案例、文种/语气/数据/标点避坑补充（Phase 6 使用）
 - `references/speech-types.md` — 讲话稿专项指南：四段式逻辑、常见病与药方、5 条通用检验标准（Phase 2/5 使用）
 - `references/daily-accumulation.md` — 日常积累方法（要搜读合练 + 素材分类体系），用户询问"怎么提高写作能力"时推荐
