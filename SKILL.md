@@ -76,6 +76,7 @@ description: |
 | 申请资源/批准 | **请示** | 理由充分、方案清晰，说清"为什么给、花在哪、有什么好处" |
 | 向下传达部署 | **通知/方案** | 条理清晰、要求明确、时间节点清楚，不能含糊 |
 | 会议发言 | **讲话稿** | 口语化但不能随意，有态度、有温度、有节奏 |
+| 学习研讨/经验交流 | **研讨材料** | 开头破题立魂、衔接承上启下、结尾升华落地，体现真思考 |
 | 年终/季度总结 | **工作总结** | 成绩-不足-打算三段式，虚实结合 |
 | 平级沟通 | **函** | 平等尊重，就事论事 |
 
@@ -346,12 +347,13 @@ Skill 内置以下 reference 文件，在对应阶段自动查阅：
 - `references/writing-frameworks.md` — 框架搭建、经典框架、问题导向方法论、费曼十二问深度思考框架（Phase 3/4 使用）
 - `references/logic-patterns.md` — 叙事三层标高 + 17 种段落逻辑模式 + 万能句式（Phase 4/5 使用）
 - `references/title-examples.md` — 标题范例库：十种类型 + 20 组场景分类 + 25 组速查 + 来稿见报修改对比（Phase 4 使用）
-- `references/master-techniques.md` — 十四大技法：站位、标题艺术、callback、新意挖掘、短剧思维、场景叙事法（含大事写小/小事写大）、亮点打造、提升高度（含拔高五法）、角度转换、去AI味、AI人味化、AI解耦工作流、心理关、深化发挥领导意图（Phase 3/5/6 使用）
+- `references/master-techniques.md` — 十五大技法：站位、标题艺术（含颗粒度递进+认知嫁接）、callback、新意挖掘、短剧思维、场景叙事法（含大事写小/小事写大）、亮点打造、提升高度（含拔高五法）、角度转换、去AI味、AI人味化、AI解耦工作流、AI原则性错误防范、心理关、深化发挥领导意图（Phase 3/5/6 使用）
 - `references/language-style.md` — 语言风格：节奏、转场、标点、直笔/简笔/实笔（Phase 5/6 使用）
 - `references/data-integration.md` — 数据融入方法论：五种呈现方式（对比、趋势、占比、换算、锚定）+ 数据与文字融合技巧（Phase 5/6 使用）
 - `references/upper-to-local.md` — 上级文件落地转化：把省/市文件翻译成本级可执行的方案（"大写意"变"工笔画"），Phase 1/3 使用，特别适用于"上级发文要求出方案"场景
 - `references/common-pitfalls.md` — 常见硬伤、避坑指南、修改实战案例、文种/语气/数据/标点避坑补充（Phase 6 使用）
 - `references/speech-types.md` — 讲话稿专项指南：四段式逻辑、常见病与药方、5 条通用检验标准（Phase 2/5 使用）
+- `references/discussion-materials.md` — 研讨材料专项指南：开头破题（两种写法）、衔接过渡（两种方式）、结尾收束（两种类型）（Phase 2/5 使用）
 - `references/daily-accumulation.md` — 日常积累方法（要搜读合练 + 素材分类体系），用户询问"怎么提高写作能力"时推荐
 - `references/document-format.md` — 公文格式规范（Phase 6 输出 .docx 使用）
 
