@@ -41,6 +41,43 @@ class GongwenDocx:
             rPr.remove(existing)
         rPr.insert(0, rFonts)
 
+    def _set_para_default_font(self, paragraph, font_name, size_pt):
+        """设置段落默认字体（影响段落标记，消除末尾异体空格）"""
+        pPr = paragraph._element.get_or_add_pPr()
+        rPr = OxmlElement('w:rPr')
+        rFonts = OxmlElement('w:rFonts')
+        rFonts.set(qn('w:eastAsia'), font_name)
+        rFonts.set(qn('w:ascii'), font_name)
+        rFonts.set(qn('w:hAnsi'), font_name)
+        rPr.append(rFonts)
+        sz = OxmlElement('w:sz')
+        sz.set(qn('w:val'), str(int(size_pt * 2)))
+        rPr.append(sz)
+        existing = pPr.find(qn('w:rPr'))
+        if existing is not None:
+            pPr.remove(existing)
+        pPr.append(rPr)
+
+    @staticmethod
+    def _normalize_quotes(text):
+        """将半角引号转为全角中文引号"""
+        result = []
+        in_quote = False  # 追踪是否在引号对内
+        i = 0
+        while i < len(text):
+            ch = text[i]
+            if ch == '"':
+                if not in_quote:
+                    result.append('“')  # "
+                    in_quote = True
+                else:
+                    result.append('”')  # "
+                    in_quote = False
+            else:
+                result.append(ch)
+            i += 1
+        return ''.join(result)
+
     def _set_line_spacing(self, paragraph, pt_val=29):
         """设置固定行距"""
         pPr = paragraph._element.get_or_add_pPr()
@@ -56,8 +93,10 @@ class GongwenDocx:
     def _add_paragraph(self, text, font_name, size_pt, bold=False,
                        alignment=None, indent_first_line=False):
         """通用添加段落"""
+        text = self._normalize_quotes(text)
         p = self.doc.add_paragraph()
         self._set_line_spacing(p, 29)
+        self._set_para_default_font(p, font_name, size_pt)
         if alignment is not None:
             p.alignment = alignment
         if indent_first_line:
