@@ -97,6 +97,8 @@ class GongwenDocx:
         p = self.doc.add_paragraph()
         self._set_line_spacing(p, 29)
         self._set_para_default_font(p, font_name, size_pt)
+        p.paragraph_format.space_before = Pt(0)
+        p.paragraph_format.space_after = Pt(0)
         if alignment is not None:
             p.alignment = alignment
         if indent_first_line:
